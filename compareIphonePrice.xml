@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ZestMoney Assigment for selenium Webdriver">
+   <test name="Compare price for Iphone">   
+    <classes>
+        <class name="assignments.zestMoney.testScripts.comparePrice"/>
+    </classes>
+  </test> 
+</suite>

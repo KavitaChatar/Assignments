@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Compare Iphone Price]">
+  <test name="Compare price in Amazon and Flipkart">
+    <classes>
+      <class name="assignments.zestMoney.testScripts.comparePrice"/>
+    </classes>
+  </test> <!-- Compare price in Amazon and Flipkart -->
+</suite> <!-- Failed suite [Compare Iphone Price] -->
