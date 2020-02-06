@@ -2,32 +2,36 @@
 <testng-results total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-02-06T10:53:05Z" name="Compare Iphone Price" finished-at="2020-02-06T10:53:08Z" duration-ms="3392">
+  <suite started-at="2020-02-06T13:26:40Z" name="ZestMoney Assigment for Selenium Webdriver" finished-at="2020-02-06T13:26:43Z" duration-ms="3173">
     <groups>
     </groups>
-    <test started-at="2020-02-06T10:53:05Z" name="Compare price in Amazon and Flipkart" finished-at="2020-02-06T10:53:08Z" duration-ms="3392">
+    <test started-at="2020-02-06T13:26:40Z" name="Compare price for Iphone" finished-at="2020-02-06T13:26:43Z" duration-ms="3173">
       <class name="assignments.zestMoney.testScripts.comparePrice">
-        <test-method signature="searchProductinAmazon()[pri:1, instance:assignments.zestMoney.testScripts.comparePrice@41de5768]" started-at="2020-02-06T16:23:05Z" name="searchProductinAmazon" finished-at="2020-02-06T16:23:07Z" duration-ms="2226" status="PASS">
+        <test-method signature="searchProductinAmazon()[pri:1, instance:assignments.zestMoney.testScripts.comparePrice@631e06ab]" started-at="2020-02-06T18:56:40Z" name="searchProductinAmazon" finished-at="2020-02-06T18:56:42Z" duration-ms="1873" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProductinAmazon -->
-        <test-method signature="checkProductisAvailableAmazon()[pri:2, instance:assignments.zestMoney.testScripts.comparePrice@41de5768]" started-at="2020-02-06T16:23:07Z" name="checkProductisAvailableAmazon" finished-at="2020-02-06T16:23:07Z" duration-ms="17" status="PASS">
+        <test-method signature="checkProductisAvailableAmazon()[pri:2, instance:assignments.zestMoney.testScripts.comparePrice@631e06ab]" started-at="2020-02-06T18:56:42Z" name="checkProductisAvailableAmazon" finished-at="2020-02-06T18:56:42Z" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkProductisAvailableAmazon -->
-        <test-method signature="searchProductinFlipkart()[pri:3, instance:assignments.zestMoney.testScripts.comparePrice@41de5768]" started-at="2020-02-06T16:23:07Z" name="searchProductinFlipkart" finished-at="2020-02-06T16:23:08Z" duration-ms="412" status="PASS">
+        <test-method signature="searchProductinFlipkart()[pri:3, instance:assignments.zestMoney.testScripts.comparePrice@631e06ab]" started-at="2020-02-06T18:56:42Z" name="searchProductinFlipkart" finished-at="2020-02-06T18:56:42Z" duration-ms="380" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProductinFlipkart -->
-        <test-method signature="checkProductisAvailableFlipkart()[pri:4, instance:assignments.zestMoney.testScripts.comparePrice@41de5768]" started-at="2020-02-06T16:23:08Z" name="checkProductisAvailableFlipkart" finished-at="2020-02-06T16:23:08Z" duration-ms="391" status="PASS">
+        <test-method signature="checkProductisAvailableFlipkart()[pri:4, instance:assignments.zestMoney.testScripts.comparePrice@631e06ab]" started-at="2020-02-06T18:56:42Z" name="checkProductisAvailableFlipkart" finished-at="2020-02-06T18:56:42Z" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkProductisAvailableFlipkart -->
-        <test-method signature="getPrice()[pri:5, instance:assignments.zestMoney.testScripts.comparePrice@41de5768]" started-at="2020-02-06T16:23:08Z" name="getPrice" finished-at="2020-02-06T16:23:08Z" duration-ms="329" status="PASS">
+        <test-method signature="getPrice()[pri:5, instance:assignments.zestMoney.testScripts.comparePrice@631e06ab]" started-at="2020-02-06T18:56:42Z" name="getPrice" finished-at="2020-02-06T18:56:43Z" duration-ms="871" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPrice -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:assignments.zestMoney.testScripts.comparePrice@631e06ab]" started-at="2020-02-06T18:56:48Z" name="closeBrowser" finished-at="2020-02-06T18:56:48Z" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- assignments.zestMoney.testScripts.comparePrice -->
-    </test> <!-- Compare price in Amazon and Flipkart -->
-  </suite> <!-- Compare Iphone Price -->
+    </test> <!-- Compare price for Iphone -->
+  </suite> <!-- ZestMoney Assigment for Selenium Webdriver -->
 </testng-results>

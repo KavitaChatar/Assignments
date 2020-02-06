@@ -14,8 +14,9 @@ public class flipkartHomePage {
 	
 	@FindBy(xpath="//input[@type=\"text\"]") WebElement searchInputBox;
 	@FindBy(xpath="//button[@type=\"submit\"]") WebElement searchButton;
-	@FindBy(xpath="//body") WebElement escapeLoginPopup;
+	@FindBy(xpath="//body") WebElement escapeLoginPopup; // Sending escape command key to avoid flipkart login pop ups	
 	
+	/* In same chrome driver create new tab and open flipkart website */
 	public flipkartHomePage(WebDriver driver) throws InterruptedException {
 		this.driver = driver; 
 		((JavascriptExecutor)driver).executeScript("window.open()");

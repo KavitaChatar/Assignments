@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class flipkartSearchPage extends flipkartHomePage{
 WebDriver driver;
@@ -21,7 +23,14 @@ WebDriver driver;
 		else return true;
 	}
 	
-	public Double getProductPrice() {
+	/* Get the product's price from flipkart, since we are switching tabs in chrome browser
+	 * it takes some time to load the data in second tab, hence will use WebDriverWait to wait
+	 * for the element to load on the screen */
+	
+	public Double getProductPrice(WebDriver driver) {
+		WebDriverWait wait = new WebDriverWait(driver,60);
+		wait.until(ExpectedConditions.elementToBeClickable(priceTag));
+		
 		String price = priceTag.getText();
 		price = price.substring(1,price.length()); 
 		Double actualPrice = Double.parseDouble(price.replace("," , ""));
